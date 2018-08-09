@@ -1,0 +1,68 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica sans-serif;
+}
+
+.chat {
+  position: relative;
+  width: 400px;
+  margin: 20px auto;
+  background: #f2f2f2;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.chat-window {
+  position: relative;
+  width: 95%;
+  height: 300px;
+  margin: 10px auto;
+  background: white;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+.chat-window p {
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+  border-bottom: 1px dotted #777;
+  box-sizing: border-box;
+}
+
+.field-error {
+  border: 2px solid red;
+}
+
+.field-error::placeholder {
+  color: red;
+}
+
+.chat-input {
+  position: relative;
+  display: block;
+  width: 95%;
+  height: 30px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  padding: 0 0 0 15px;
+  font-size: 0.85em;
+}
+
+.submit-btn {
+  position: relative;
+  display: block;
+  width: 95%;
+  margin: 10px auto;
+  box-sizing: border-box;
+  background: blue;
+  color: white;
+  font-size: 1.1em;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submit-btn:focus {
+  outline: none;
+}
